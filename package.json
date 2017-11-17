@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@types/elasticsearch": "^5.0.17",
+    "axios": "^0.17.1",
+    "elasticsearch": "^14.0.0",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.3.0",
+    "lodash": "^4.17.4",
+    "nodemon": "^1.12.1",
+    "npm": "^5.5.1",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.6.1",
+    "winston": "^3.0.0-rc1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.40",
+    "@types/koa-router": "^7.0.25",
+    "@types/lodash": "^4.14.85",
+    "@types/node": "^8.0.51"
+  },
+  "scripts": {
+    "run:dev": "nodemon  -e js,ts ./index.js",
+    "debug": "node index.js --inspect",
+    "start": "node index.js"
+  }
+}
